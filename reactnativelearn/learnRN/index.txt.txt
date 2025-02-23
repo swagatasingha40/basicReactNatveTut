@@ -1,0 +1,26 @@
+Extra Requirements
+TS
+Styling (NativeWind)
+
+
+Install
+
+Use this doc for creating a project - https://docs.expo.dev/tutorial/create-your-first-app/
+npx create-expo-app@latest [app name]
+
+Start
+
+npx expo start
+switch to development mode 
+use expo go app from mobile to test
+
+Understanding the file and folder structure
+
+tsconfig.json - TS rules
+package.json - scripts and metadata
+app.json - app related config
+
+newArchitecture in app.json means "bridgeless architecture" means we don't need a bridge anymore to connect between native mob application 
+and javascript anymore.  
+
+run reset-project to delete template code and get clean app code
